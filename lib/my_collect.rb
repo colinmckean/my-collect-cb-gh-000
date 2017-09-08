@@ -4,7 +4,7 @@ newCollection = []
   while i < collection.size
 
     newCollection.push(collection[i].upcase.split(" ")[0])
-    yield(collection[i].upcase)
+    yield(collection[i])
     i += 1
   end
 newCollection
