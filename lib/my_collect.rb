@@ -3,7 +3,7 @@ def my_collect(collection)
 newCollection = []
   while i < collection.size
 
-    newCollection.push(collection[i].upcase.join(" "))
+    newCollection.push(collection[i].upcase.split(" ").join)
     yield(collection[i].upcase)
     i += 1
   end
